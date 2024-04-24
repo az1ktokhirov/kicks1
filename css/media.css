@@ -1,0 +1,212 @@
+@media (max-width: 1320px) {
+  .header__title {
+    font-size: 180px;
+    line-height: 200px;
+  }
+}
+@media (max-width: 1110px) {
+  .header__title {
+    font-size: 165px;
+    line-height: 180px;
+  }
+  .cards__content-bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .reviews__content-bottom {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 992px) {
+  .header__title {
+    font-size: 125px;
+    line-height: 150px;
+  }
+  .reviews__content-bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer__content-top {
+    flex-direction: column;
+  }
+  .footer__content-title {
+    font-size: 20px;
+  }
+  .footer__content-text {
+    font-size: 16px;
+  }
+  .about {
+    max-width: 320px;
+  }
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .line:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .line:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .line:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav__content-list {
+    position: fixed;
+    left: -100%;
+    top: 150px;
+    gap: 0;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    background: #fafafa;
+    transition: 0.5s;
+    width: 95%;
+    height: 100vh;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.23);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(14.4px);
+    -webkit-backdrop-filter: blur(14.4px);
+    border: 1px solid rgba(255, 255, 255, 0.48);
+  }
+
+  .nav__content-item {
+    margin: 4px 0;
+    font-size: 25px;
+    padding: 5px;
+  }
+
+  .nav__content-list.active {
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 1;
+  }
+
+  .header__content-subtitle {
+    font-size: 44px;
+    line-height: 58px;
+  }
+  .header__content-text {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .header__title {
+    font-size: 90px;
+    line-height: 140px;
+  }
+  .header__content-area {
+    padding-top: 300px;
+    border-radius: 35px;
+  }
+  .header__content-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+  }
+  .title {
+    font-size: 55px;
+    line-height: 65px;
+    max-width: 500px;
+  }
+  .footer__bottom-top {
+    flex-direction: column;
+  }
+  .footer__top-subtitle {
+    font-size: 35px;
+    line-height: normal;
+  }
+  .footer__top-logo {
+    max-width: 280px;
+    padding: 10px;
+  }
+}
+@media (max-width: 576px) {
+  .nav__content-list {
+    top: 105px;
+  }
+  .nav__content {
+    padding: 22px;
+    margin: 24px 0 0;
+    border-radius: 20px;
+  }
+  .nav__content-right {
+    column-gap: 10px;
+  }
+  .nav__content-logo {
+    width: 80px;
+    height: 20px;
+  }
+  .header__content-subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .header__content-text {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .header__title {
+    font-size: 62px;
+    line-height: 70px;
+  }
+  .header__content-area {
+    padding: 250px 20px 20px;
+    border-radius: 20px;
+  }
+  .cards__content-bottom {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .title {
+    font-size: 30px;
+    line-height: 45px;
+    max-width: 300px;
+  }
+  .nav__search,.nav__login{
+    padding: 8rem 2.5rem 0;
+  }
+  .reviews__content-card {
+    max-width: 375px;
+    border-radius: 30px;
+  }
+  .review__content-img{
+    max-width: 375px;
+  }
+}
+@media (max-width: 396px) {
+  .nav__content-list {
+    top: 80px;
+  }
+  .nav__content {
+    padding: 16px;
+    margin: 15px 0 0;
+    border-radius: 12px;
+  }
+  .header__content-subtitle {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .header__content-text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .header__title {
+    font-size: 48px;
+    line-height: 50px;
+  }
+  .header__content-area {
+    border-radius: 10px;
+  }
+  .title {
+    font-size: 24px;
+    line-height: 40px;
+    max-width: 250px;
+  }
+  .reviews__content-card {
+    max-width: 300px;
+    border-radius: 20px;
+  }
+  .review__content-img{
+    max-width: 300px;
+  }
+}

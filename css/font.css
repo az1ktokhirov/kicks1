@@ -1,0 +1,20 @@
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url(../font/OpenSans-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url(../font/OpenSans-Regular.ttf);
+}
+@font-face {
+  font-family: 'Rubik-Bold';
+  src: url(../font/Rubik-Bold.ttf);
+}
+@font-face {
+  font-family: 'Rubik-SemiBold';
+  src: url(../font/Rubik-SemiBold.ttf);
+}
+@font-face {
+  font-family: 'Rubik-Medium';
+  src: url(../font/Rubik-Medium.ttf);
+}
